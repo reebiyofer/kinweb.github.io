@@ -1,0 +1,146 @@
+body {
+
+  background-color: rgb(237, 236, 233);
+  font-family: "Roboto Slab", serif;
+}
+.main {
+  width: 60rem;
+  margin: 0px auto;
+}
+header {
+  border-bottom: solid 2px rgb(134, 178, 85);
+  background-color: white;
+}
+ul{
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+  color: black ;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #6eaa30;
+   
+}
+header .logo {
+  float: left;
+  margin: -1rem -1rem 2rem 2rem;
+}h1 {
+  font-weight: 800px;
+  font-family: "Roboto Slab", serif;
+}
+header .logo img {
+  width: 9rem;
+}
+header .main {
+  width: 100%;
+  margin-left: 18rem;
+  margin-bottom: -1rem;
+}
+header ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+}
+header li {
+  float: left;
+  padding-right: 2rem;
+}
+header .logo::after {
+  clear: both;
+}
+li a { 
+  padding: 20px 10px;
+  display: block;
+  color: black;
+ 
+}
+li a:active {
+  background-color: #6eaa30;
+}
+
+footer {
+  padding: 1rem 20rem;
+  color: white;
+  justify-content: space-between;
+  background-color: #6eaa30;
+  display:flex;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 2rem;
+    display:inline;
+}
+footer li {
+  font-size: 13px;
+  padding-left: 8px;
+}
+h4,
+h2 {
+  display: inline;
+  color: #6eaa30;
+  font-weight: 500;
+}
+
+.main .news {
+  width: 60rem;
+  margin: 0px auto;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  background-color: white;
+}
+.news .text {
+  position: relative;
+  padding-left: 2rem;
+  color: #6eaa30;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+.news img {
+  padding-left: 10rem;
+}
+.bar {
+  display: flex;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  height: 20rem;
+  margin: 1rem 0.5rem 3rem 0rem;
+  padding-left: 1rem;
+}
+.info .section {
+  display: flex;
+}
+.info .section .date {
+  margin: 3px;
+}
+.info .section .date .text {
+  padding: 5px 5px;
+}
+.info img {
+  width: 9rem;
+}
+.info b {
+  color: #6eaa30;
+}.info button {
+  color: white;
+  background-color: #6eaa30;
+  height: 55px;width:10rem;
+  border: 2px solid;
+}
+.info .link {
+  margin-bottom: 1rem;
+  margin-left: 14rem;
+  margin-right: 1rem;
+}
+.info strong {
+  color: #6eaa30;
+}
